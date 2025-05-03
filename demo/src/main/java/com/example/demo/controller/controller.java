@@ -1,4 +1,7 @@
 package com.example.demo.controller;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.web.bind.annotation.*;
 @RestController
 public class controller{
@@ -16,8 +19,6 @@ public class controller{
     }
     @RequestMapping("/Info")
     public String getInfo(@RequestParam("un") String un,@RequestParam("id") int id) {
-    	return "Name =" +un "and Id ="+id;
+    	return "Name =" +un+ "and Id =" +id;
     }
 }
-
-
