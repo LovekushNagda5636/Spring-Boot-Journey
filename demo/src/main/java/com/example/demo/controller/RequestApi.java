@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 		}
 		return "";	
 	}
-	@RequestMapping("/test1")
+	@RequestMapping("/test3")
 	public String testApi1() {
 		List<String> li =new ArrayList<>();
 		li.add("1");
