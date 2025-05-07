@@ -4,4 +4,5 @@ import com.example.demo.entity.User;
 
 public interface UserService {
 	 User createUser(User user);
+	 
 }

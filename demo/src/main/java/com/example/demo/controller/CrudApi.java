@@ -27,7 +27,7 @@ public class CrudApi{
 	}
 	@GetMapping("/user")
 	public List<User> allUser(){
-		return impl.allUser();
+		return impl.getAllUser();
 	}
 	@PutMapping("/user/{id}")
 	public User updateUser(@PathVariable String id,@RequestBody User user)
