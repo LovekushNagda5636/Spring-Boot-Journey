@@ -8,7 +8,7 @@ import com.example.demo.entity.User;
 @Service
 public interface Crud {
 	public User createUser(User user);
-	public List<User> getAllUser();
+	public List<User> allUser();
 	public User updateUser(String id,User user);
 	public User deleteUser(String id);
 }
